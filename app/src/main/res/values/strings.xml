@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Produtos</string>
+    <string name="tela_login">Tela de Login</string>
+    <string name="tela_login_user">Usuário</string>
+    <string name="tela_login_pass">Senha</string>
+    <string name="tela_login_botao">Login</string>
+</resources>

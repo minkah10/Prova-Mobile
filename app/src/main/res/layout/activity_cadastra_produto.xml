@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.minkaholiveira.cadastroproduto.CadastraProduto">
+
+    <TextView
+        android:id="@+id/tela_login_cabecalho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Cadastro de Produto"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tela_cadastro_nome_produto_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do Produto"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/tela_cadastro_nome_produto_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tela_cadastro_valor_produto_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor do Produto"/>
+
+    <EditText
+        android:id="@+id/tela_cadastro_valor_produto_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tela_cadastro_categoria_produto_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Categoria do Produto"/>
+
+    <EditText
+        android:id="@+id/tela_cadastro_categoria_produto_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tela_cadastro_favorito_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar aos Favoritos"
+        android:layout_marginTop="15dp"/>
+
+    <CheckBox
+        android:id="@+id/tela_cadastro_favorito_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/tela_cadastro_button"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"/>
+</LinearLayout>
+</ScrollView>
